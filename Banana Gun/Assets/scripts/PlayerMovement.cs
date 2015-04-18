@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour {
 
 	private bool facingRight;
 	private Rigidbody2D rb2d;
-
 	private Animator anim;
 
 	void Awake(){
