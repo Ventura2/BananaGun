@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
 	private Animator anim;
 
 	void Awake(){
+		facingRight = true;
 		rb2d = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
 	}
@@ -43,5 +44,6 @@ public class PlayerController : MonoBehaviour {
 		Vector3 theScale = transform.localScale;
 
 		theScale.x = theScale.x * -1;
+		transform.localScale = theScale;
 	}
 }
