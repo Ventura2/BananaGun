@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour {
 
 	public float maxVelocity = 10f;
 
