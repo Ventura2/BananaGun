@@ -15,15 +15,15 @@ public class PlayerMovement : MonoBehaviour {
 	private bool jumping;
 
 	void Awake(){
-		facingRight = true;
 		rb2d = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
-		jumping = true;
 	}
 
 	// Use this for initialization
 	void Start () {
-	
+		facingRight = true;
+		jumping = true;
+
 	}
 	
 	// Update is called once per frame
@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour {
 		if(!jumping)
 			rb2d.velocity = new Vector2(move*maxVelocity , rb2d.velocity.y);
 		else
-			rb2d.velocity = new Vector2(rb2d.velocity.x + move*maxVelocity , rb2d.velocity.y);
+			rb2d.AddForce(Vector2.right* move*maxVelocity *0.1f);
 
 		if(move > 0 && !facingRight)
 			Flip ();
