@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour {
 	private Rigidbody2D rb2d;
 	private Animator anim;
 
+	public Transform lockLeft;           // The transform representing the left bound of the camera's position.
+	public Transform lockRight;          // The transform representing the right bound of the camera's position.
+
 	private bool jumping;
 
 	void Awake(){
@@ -48,6 +51,14 @@ public class PlayerMovement : MonoBehaviour {
 
 		if(hit.collider != null)
 			jumping=false;
+
+		Vector3 newPosition = transform.position;
+		
+		// Clamp the x value of the stored position between the left and right bounds.
+		newPosition.x = Mathf.Clamp (newPosition.x, lockLeft.position.x, lockRight.position.x);
+		
+		// Set the camera's position to this stored position.
+		transform.position = newPosition;
 	}
 
 	void Flip()
