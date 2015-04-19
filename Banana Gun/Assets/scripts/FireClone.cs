@@ -25,10 +25,13 @@ public class FireClone : MonoBehaviour {
 			launchVector.z = 0;
 
 			//instantiate and add velocity
-			GameObject clone =  Instantiate(fdsf, launchVector.normalized*3 + transform.position, Quaternion.identity) as GameObject;
+			GameObject clone =  Instantiate(fdsf, launchVector.normalized + transform.position, Quaternion.identity) as GameObject;
 			Vector2 force = (Vector2)launchVector;
 
-			clone.GetComponent<Rigidbody2D>().velocity = forceFire*force.normalized;
+			clone.GetComponent<Rigidbody2D>().AddForce (forceFire*force.normalized, ForceMode2D.Impulse);
+
+			Camera.main.GetComponent<MainCharacterFollow>().bazooka = clone.transform;
+
 
 			fired=true;
 

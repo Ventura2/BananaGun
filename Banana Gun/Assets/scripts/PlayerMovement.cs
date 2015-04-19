@@ -9,13 +9,13 @@ public class PlayerMovement : MonoBehaviour {
 	private Rigidbody2D rb2d;
 	private Animator anim;
 
-	public Transform lockLeft;
-	public Transform lockRight;
+	private bool jumping;
 
 	void Awake(){
 		facingRight = true;
 		rb2d = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
+		jumping = true;
 	}
 
 	// Use this for initialization
@@ -28,7 +28,10 @@ public class PlayerMovement : MonoBehaviour {
 
 		float move = Input.GetAxis ("Horizontal");
 
-		rb2d.velocity = new Vector2(move*maxVelocity , rb2d.velocity.y);
+		if(!jumping)
+			rb2d.velocity = new Vector2(move*maxVelocity , rb2d.velocity.y);
+		else
+			rb2d.velocity = new Vector2(rb2d.velocity.x + move*maxVelocity , rb2d.velocity.y);
 
 		if(move > 0 && !facingRight)
 			Flip ();
@@ -37,14 +40,14 @@ public class PlayerMovement : MonoBehaviour {
 
 		anim.SetFloat ("speed", Mathf.Abs(move));
 
-		Vector3 newPosition = transform.position;
-		
-		// Clamp the x value of the stored position between the left and right bounds.
-		newPosition.x = Mathf.Clamp (newPosition.x, lockLeft.position.x, lockRight.position.x);
-		
-		// Set the camera's position to this stored position.
-		transform.position = newPosition;
+		BoxCollider2D collider = GetComponent<BoxCollider2D>();
+		Vector2 bottom = collider.bounds.center;
+		bottom.y -= collider.bounds.size.y;
 
+		RaycastHit2D hit = Physics2D.Raycast(bottom , -Vector2.up, 0.1f);
+
+		if(hit.collider != null)
+			jumping=false;
 	}
 
 	void Flip()
