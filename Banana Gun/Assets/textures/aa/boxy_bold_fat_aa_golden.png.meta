@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: 34004dda26ebf484cbd9cd9deaaa1a5b
+timeCreated: 1429470232
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: boxy_bold_fat_aa_golden_0
+    21300002: boxy_bold_fat_aa_golden_1
+    21300004: boxy_bold_fat_aa_golden_2
+    21300006: boxy_bold_fat_aa_golden_3
+    21300008: boxy_bold_fat_aa_golden_4
+    21300010: boxy_bold_fat_aa_golden_5
+    21300012: boxy_bold_fat_aa_golden_6
+    21300014: boxy_bold_fat_aa_golden_7
+    21300016: boxy_bold_fat_aa_golden_8
+    21300018: boxy_bold_fat_aa_golden_9
+    21300020: boxy_bold_fat_aa_golden_10
+    21300022: boxy_bold_fat_aa_golden_11
+    21300024: boxy_bold_fat_aa_golden_12
+    21300026: boxy_bold_fat_aa_golden_13
+    21300028: boxy_bold_fat_aa_golden_14
+    21300030: boxy_bold_fat_aa_golden_15
+    21300032: boxy_bold_fat_aa_golden_16
+    21300034: boxy_bold_fat_aa_golden_17
+    21300036: boxy_bold_fat_aa_golden_18
+    21300038: boxy_bold_fat_aa_golden_19
+    21300040: boxy_bold_fat_aa_golden_20
+    21300042: boxy_bold_fat_aa_golden_21
+    21300044: boxy_bold_fat_aa_golden_22
+    21300046: boxy_bold_fat_aa_golden_23
+    21300048: boxy_bold_fat_aa_golden_24
+    21300050: boxy_bold_fat_aa_golden_25
+    21300052: boxy_bold_fat_aa_golden_26
+    21300054: boxy_bold_fat_aa_golden_27
+    21300056: boxy_bold_fat_aa_golden_28
+    21300058: boxy_bold_fat_aa_golden_29
+    21300060: boxy_bold_fat_aa_golden_30
+    21300062: boxy_bold_fat_aa_golden_31
+    21300064: boxy_bold_fat_aa_golden_32
+    21300066: boxy_bold_fat_aa_golden_33
+    21300068: boxy_bold_fat_aa_golden_34
+    21300070: boxy_bold_fat_aa_golden_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: boxy_bold_fat_aa_golden_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 96
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 96
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 96
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 96
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 96
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 104
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 98
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 88
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 88
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 88
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 88
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 88
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 80
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 80
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 80
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_23
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 80
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_24
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 73
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 80
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 80
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 80
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_29
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 68
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_30
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 57
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_31
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 56
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_32
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 56
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_fat_aa_golden_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
