@@ -49,6 +49,7 @@
      <Compile Include="Assets\scripts\BananaAnimation.cs" />
      <Compile Include="Assets\scripts\FireClone.cs" />
      <Compile Include="Assets\scripts\MainCharacterFollow.cs" />
+     <Compile Include="Assets\scripts\PlayerDead.cs" />
      <Compile Include="Assets\scripts\PlayerMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Tools/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
