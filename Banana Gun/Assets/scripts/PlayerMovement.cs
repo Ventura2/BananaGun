@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour {
 	private Rigidbody2D rb2d;
 	private Animator anim;
 
+	public Transform lockLeft;
+	public Transform lockRight;
+
 	void Awake(){
 		facingRight = true;
 		rb2d = GetComponent<Rigidbody2D>();
@@ -33,6 +36,14 @@ public class PlayerMovement : MonoBehaviour {
 			Flip ();
 
 		anim.SetFloat ("speed", Mathf.Abs(move));
+
+		Vector3 newPosition = transform.position;
+		
+		// Clamp the x value of the stored position between the left and right bounds.
+		newPosition.x = Mathf.Clamp (newPosition.x, lockLeft.position.x, lockRight.position.x);
+		
+		// Set the camera's position to this stored position.
+		transform.position = newPosition;
 
 	}
 

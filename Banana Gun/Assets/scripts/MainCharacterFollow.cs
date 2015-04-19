@@ -4,8 +4,8 @@ using System.Collections;
 public class MainCharacterFollow : MonoBehaviour {
 
 	public Transform bazooka;        // The transform of the projectile to follow.
-	//public Transform farLeft;           // The transform representing the left bound of the camera's position.
-	//public Transform farRight;          // The transform representing the right bound of the camera's position.
+	public Transform lockLeft;           // The transform representing the left bound of the camera's position.
+	public Transform lockRight;          // The transform representing the right bound of the camera's position.
 	
 	// Update is called once per frame
 	void Update () {
@@ -15,7 +15,7 @@ public class MainCharacterFollow : MonoBehaviour {
 		newPosition.x = bazooka.position.x;
 		
 		// Clamp the x value of the stored position between the left and right bounds.
-		//newPosition.x = Mathf.Clamp (newPosition.x, farLeft.position.x, farRight.position.x);
+		newPosition.x = Mathf.Clamp (newPosition.x, lockLeft.position.x, lockRight.position.x);
 		
 		// Set the camera's position to this stored position.
 		transform.position = newPosition;
