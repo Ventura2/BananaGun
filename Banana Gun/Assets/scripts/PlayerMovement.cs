@@ -25,7 +25,12 @@ public class PlayerMovement : MonoBehaviour {
 	void Start () {
 		jumping = true;
 	}
-	
+
+	void Update()
+	{
+
+
+	}
 	// Update is called once per frame
 	void FixedUpdate () {
 
@@ -43,14 +48,20 @@ public class PlayerMovement : MonoBehaviour {
 
 		anim.SetFloat ("speed", Mathf.Abs(move));
 
+		
 		BoxCollider2D collider = GetComponent<BoxCollider2D>();
-		Vector2 bottom = collider.bounds.center;
-		bottom.y -= collider.bounds.size.y;
+		Vector2 bottom = collider.bounds.min;
 
-		RaycastHit2D hit = Physics2D.Raycast(bottom , -Vector2.up, 0.1f);
-
-		if(hit.collider != null)
+		bottom.y -= 0.01f;
+		bottom.x = collider.bounds.center.x;
+		
+		RaycastHit2D hit = Physics2D.Raycast(bottom, -Vector2.up, 0.01f);
+		
+		Debug.DrawLine(bottom, -Vector2.up*0.1f+bottom);
+		
+		if(hit.collider != null && hit.collider.name != gameObject.name)
 			jumping=false;
+
 
 		Vector3 newPosition = transform.position;
 		
