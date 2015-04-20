@@ -322,7 +322,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &663502511
 RectTransform:
   m_ObjectHideFlags: 0
@@ -410,7 +410,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.47823811
+  orthographic size: 1.37957716
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -722,7 +722,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 430430, guid: a63fc2383384f5545b0b7bbd284c583f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.200000003
+      value: -.291999996
       objectReference: {fileID: 0}
     - target: {fileID: 430430, guid: a63fc2383384f5545b0b7bbd284c583f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -748,6 +748,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 11422506, guid: a63fc2383384f5545b0b7bbd284c583f, type: 2}
+      propertyPath: gameoverMenu
+      value: 
+      objectReference: {fileID: 663502510}
     - target: {fileID: 11404330, guid: a63fc2383384f5545b0b7bbd284c583f, type: 2}
       propertyPath: lockLeft
       value: 
@@ -756,14 +760,6 @@ Prefab:
       propertyPath: lockRight
       value: 
       objectReference: {fileID: 345161925}
-    - target: {fileID: 11422506, guid: a63fc2383384f5545b0b7bbd284c583f, type: 2}
-      propertyPath: gameOverText
-      value: 
-      objectReference: {fileID: 1143986886}
-    - target: {fileID: 11422506, guid: a63fc2383384f5545b0b7bbd284c583f, type: 2}
-      propertyPath: gameoverMenu
-      value: 
-      objectReference: {fileID: 663502510}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a63fc2383384f5545b0b7bbd284c583f, type: 2}
   m_IsPrefabParent: 0
@@ -1147,7 +1143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2084372499
 RectTransform:
   m_ObjectHideFlags: 0

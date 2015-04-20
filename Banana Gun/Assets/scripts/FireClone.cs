@@ -3,7 +3,6 @@ using System.Collections;
 
 public class FireClone : MonoBehaviour {
 
-
 	public float forceFire = 10;
 	private bool fired;
 	private Animator anim;
@@ -31,10 +30,17 @@ public class FireClone : MonoBehaviour {
 
 			clone.GetComponent<Rigidbody2D>().AddForce (forceFire*force.normalized, ForceMode2D.Impulse);
 
+			clone.GetComponent<PlayerMovement>().facingRight = GetComponent<PlayerMovement>().facingRight;
 			Camera.main.GetComponent<MainCharacterFollow>().bazooka = clone.transform;
 
 			anim.SetTrigger("fire");
 			fired=true;
+
+			//Disable all the scripts and set as trigger the collision
+			foreach(MonoBehaviour mono in GetComponents<MonoBehaviour>())
+			{
+				mono.enabled = false;
+			}
 
 		}
 

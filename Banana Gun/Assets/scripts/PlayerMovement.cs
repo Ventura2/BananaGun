@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	public float maxVelocity = 10f;
 
-	private bool facingRight;
+	public bool facingRight;
 	private Rigidbody2D rb2d;
 	private Animator anim;
 
@@ -17,13 +17,13 @@ public class PlayerMovement : MonoBehaviour {
 	void Awake(){
 		rb2d = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
+		
+		facingRight = true;
 	}
 
 	// Use this for initialization
 	void Start () {
-		facingRight = true;
 		jumping = true;
-
 	}
 	
 	// Update is called once per frame
@@ -36,9 +36,9 @@ public class PlayerMovement : MonoBehaviour {
 		else
 			rb2d.AddForce(Vector2.right* move*maxVelocity *0.1f);
 
-		if(move > 0 && !facingRight)
+		if(move > 0.2f && !facingRight)
 			Flip ();
-		else if(move < 0 && facingRight)
+		else if(move < 0.2f && facingRight)
 			Flip ();
 
 		anim.SetFloat ("speed", Mathf.Abs(move));

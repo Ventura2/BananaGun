@@ -18,7 +18,7 @@ public class PlayerDead : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D collision) 
 	{
-		if(collision.gameObject.tag == "Enemy")
+		if(collision.gameObject.tag == "Enemy" && isActiveAndEnabled)
 		{
 			gameoverMenu.SetActive(true);
 			//GameObject.Destroy(this.gameObject);
